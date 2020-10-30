@@ -1,0 +1,160 @@
+/*Reusable code*/
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2,h3,h4{
+  font-family: 'Times New Roman', Times, serif;
+}
+p{
+  padding: 15px;
+  word-spacing: 3px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  font-size: 17px;
+}
+/*-------------*/
+/*Background Image*/
+
+.back{
+  background-image: ;
+  margin-top: 20px;
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+/*---------------*/
+
+/*Navigation bar*/
+.navigation{
+  background-color: #0a3d62;
+}
+/*Welcome*/
+.vision{
+  margin-top: 80px;  
+}
+.vision h1{
+  text-align: center;
+  color:  #0a3d62;
+  font-weight: 100;
+}
+.vision h1:after{
+  display: block;
+  content: " ";
+  width:200px;
+  border-bottom: 2px solid orange;
+  height: 2px;
+  margin:0 auto;
+  margin-top: 20px;
+}
+.vision p{
+  margin-top: 20px;
+}
+.vision-cont h4{
+  margin-left: 15px;
+  color: #0a3d62; 
+  font-weight:400;
+}
+.list-group-item{
+  word-spacing: 2px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  padding: 3px 15px 3px 15px;
+  font-size: 17px;
+}
+/*-----------------*/
+
+/*Director's message*/
+.jumbotron{
+  margin-top: 100px;
+  background-color:#f1f2f6;/*#f1f2f6*/
+  border-radius: 0;
+}
+.jumbotron h1{
+  font-weight: 100;
+  color: #0a3d62;
+  text-align: center;
+}
+.jumbotron h1:after{
+  display: block;
+  content: " ";
+  width:150px;
+  border-bottom: 2px solid orange;
+  height: 2px;
+  margin:0 auto;
+  margin-top: 20px;
+}
+.jumbotron p{
+  margin-top: 10px;
+  font-weight:100;
+  word-spacing: 3px;
+  line-height: 25px;
+  padding:5px;
+}
+.dir{
+  border-radius: 50%;
+  margin-top:10px;
+}
+.name{
+  text-align: center;
+  font-weight: bolder;
+}
+.imaged{
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/*Address and Map*/
+.location{
+  margin-top: 130px;
+  margin-bottom: 100px;
+  background-color: floralwhite;
+}
+iframe{
+  height: 300px;
+  margin:0 auto;
+  width:100%;
+}
+.address h2{
+  color: #0a3d62;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+.address p{
+  padding:15px;
+}
+
+/*Footer*/
+footer{
+  margin-top: 100px;
+  background-color:#485460;
+  color: white;
+  padding: 10px;
+  width: 100%;
+}
+
+/*Icons*/
+.fa{
+  margin-right: 10px;
+  color: white;
+}
+.facebook:hover{
+  color: #3b5998;
+}
+.linkedin:hover{
+  color: #0e76a8;
+}
+.twitter:hover{
+  color:#00acee;
+}
+.env{
+  color: #485460;
+}
